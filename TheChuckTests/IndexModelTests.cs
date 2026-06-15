@@ -47,7 +47,7 @@ namespace TheChuck.Pages.Tests
             await pageModel.OnGet();
 
             //Assert
-            Assert.AreEqual("NotWorks", pageModel.DisplayText);
+            Assert.AreEqual("WORKS", pageModel.DisplayText);
         }
 
 
