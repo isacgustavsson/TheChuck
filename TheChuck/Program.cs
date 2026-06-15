@@ -34,11 +34,11 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
-void smallChange()
+void SmallChange()
 {
     Console.WriteLine("a small change");
 }
 
-smallChange();
+SmallChange();
 
 app.Run();
